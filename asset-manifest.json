@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.47a3ce14.chunk.css",
+    "main.js": "/website/static/js/main.eef70b00.chunk.js",
+    "main.js.map": "/website/static/js/main.eef70b00.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.7afdd120.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.7afdd120.js.map",
+    "static/css/2.f4f9aafe.chunk.css": "/website/static/css/2.f4f9aafe.chunk.css",
+    "static/js/2.15343fbc.chunk.js": "/website/static/js/2.15343fbc.chunk.js",
+    "static/js/2.15343fbc.chunk.js.map": "/website/static/js/2.15343fbc.chunk.js.map",
+    "static/js/3.3ebd3658.chunk.js": "/website/static/js/3.3ebd3658.chunk.js",
+    "static/js/3.3ebd3658.chunk.js.map": "/website/static/js/3.3ebd3658.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/2.f4f9aafe.chunk.css.map": "/website/static/css/2.f4f9aafe.chunk.css.map",
+    "static/css/main.47a3ce14.chunk.css.map": "/website/static/css/main.47a3ce14.chunk.css.map",
+    "static/js/2.15343fbc.chunk.js.LICENSE.txt": "/website/static/js/2.15343fbc.chunk.js.LICENSE.txt",
+    "static/media/1.91bf1015.jpg": "/website/static/media/1.91bf1015.jpg",
+    "static/media/2.be1ca7fb.JPG": "/website/static/media/2.be1ca7fb.JPG",
+    "static/media/3.a786095a.JPG": "/website/static/media/3.a786095a.JPG",
+    "static/media/4.fec92468.jpg": "/website/static/media/4.fec92468.jpg",
+    "static/media/7.8e754f0c.JPG": "/website/static/media/7.8e754f0c.JPG",
+    "static/media/8.56013b7d.JPG": "/website/static/media/8.56013b7d.JPG",
+    "static/media/9.1a83fd15.JPG": "/website/static/media/9.1a83fd15.JPG",
+    "static/media/font-awesome.css": "/website/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/git_certification.cd11b397.jpg": "/website/static/media/git_certification.cd11b397.jpg",
+    "static/media/mani.510ecaaa.jpg": "/website/static/media/mani.510ecaaa.jpg",
+    "static/media/pic.05fc669a.png": "/website/static/media/pic.05fc669a.png",
+    "static/media/q.551239b5.png": "/website/static/media/q.551239b5.png",
+    "static/media/rasgullas.ac777d57.jpg": "/website/static/media/rasgullas.ac777d57.jpg",
+    "static/media/react_certification.fd5d23e7.jpg": "/website/static/media/react_certification.fd5d23e7.jpg",
+    "static/media/red.5e5cd085.jpg": "/website/static/media/red.5e5cd085.jpg",
+    "static/media/tall_tales1.e810bfcf.jpg": "/website/static/media/tall_tales1.e810bfcf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7afdd120.js",
+    "static/css/2.f4f9aafe.chunk.css",
+    "static/js/2.15343fbc.chunk.js",
+    "static/css/main.47a3ce14.chunk.css",
+    "static/js/main.eef70b00.chunk.js"
+  ]
+}
