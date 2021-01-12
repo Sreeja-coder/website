@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.47a3ce14.chunk.css",
-    "main.js": "/website/static/js/main.55871b30.chunk.js",
-    "main.js.map": "/website/static/js/main.55871b30.chunk.js.map",
+    "main.js": "/website/static/js/main.3a13756b.chunk.js",
+    "main.js.map": "/website/static/js/main.3a13756b.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.7afdd120.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.7afdd120.js.map",
     "static/css/2.f4f9aafe.chunk.css": "/website/static/css/2.f4f9aafe.chunk.css",
@@ -25,7 +25,6 @@
     "static/media/git_certification.cd11b397.jpg": "/website/static/media/git_certification.cd11b397.jpg",
     "static/media/mani.510ecaaa.jpg": "/website/static/media/mani.510ecaaa.jpg",
     "static/media/pic.05fc669a.png": "/website/static/media/pic.05fc669a.png",
-    "static/media/q.551239b5.png": "/website/static/media/q.551239b5.png",
     "static/media/rasgullas.ac777d57.jpg": "/website/static/media/rasgullas.ac777d57.jpg",
     "static/media/react_certification.fd5d23e7.jpg": "/website/static/media/react_certification.fd5d23e7.jpg",
     "static/media/red.5e5cd085.jpg": "/website/static/media/red.5e5cd085.jpg",
@@ -36,6 +35,6 @@
     "static/css/2.f4f9aafe.chunk.css",
     "static/js/2.15343fbc.chunk.js",
     "static/css/main.47a3ce14.chunk.css",
-    "static/js/main.55871b30.chunk.js"
+    "static/js/main.3a13756b.chunk.js"
   ]
 }
