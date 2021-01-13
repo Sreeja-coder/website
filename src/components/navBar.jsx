@@ -23,7 +23,7 @@ class NavBar extends Component {
 
     render() { 
       let w = this.state.windowWidth;
-      w = (w - w/2)+200
+      w = (w - w/2)
 
       
         return (
