@@ -3,7 +3,29 @@ import { Link, NavLink } from 'react-router-dom';
 
 class NavBar extends Component {
     state = {  }
+    constructor(props) {
+      super(props);
+      this.state = { windowWidth: window.innerWidth };
+    }
+
+     handleResize = (e) => {
+      this.setState({ windowWidth: window.innerWidth });
+     };
+    
+     componentDidMount() {
+      window.addEventListener("resize", this.handleResize);
+     }
+    
+    //  componentWillUnMount() {
+    //   window.addEventListener("resize", this.handleResize);
+    //  }
+
+
     render() { 
+      let w = this.state.windowWidth;
+      w = (w - w/2)+200
+
+      
         return (
 
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark border  m-2 rounded">
@@ -12,8 +34,8 @@ class NavBar extends Component {
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button> */}
-  <h1 style={{color:"white",marginRight:"1200px",fontFamily: "Papyrus"}}> Sreeja Pillai <span><i class="fa fa-sun-o" aria-hidden="true"></i> </span></h1>
-  
+  {/* <h1 style={{color:"white",marginRight:"1200px",fontFamily: "Papyrus"}}> Sreeja Pillai <span><i class="fa fa-sun-o" aria-hidden="true"></i> </span></h1> */}
+  <h1 style={{color:"white",marginRight:w+"px",fontFamily: "Papyrus"}}> Sreeja Pillai <span><i class="fa fa-sun-o" aria-hidden="true"></i> </span></h1>
   <span></span>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">

@@ -14,6 +14,20 @@ import tall_tales from '../assets/tall_tales1.jpg';
 import ras from '../assets/rasgullas.jpg';
 
 class Hobbies extends Component {
+  state = {  }
+  constructor(props) {
+    super(props);
+    this.state = { windowWidth: window.innerWidth };
+  }
+
+   handleResize = (e) => {
+    this.setState({ windowWidth: window.innerWidth });
+   };
+  
+   componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+   }
+
     styles={
         carousel:{
             height: "80%",
@@ -25,6 +39,16 @@ class Hobbies extends Component {
     img:{
         height:"800px",
         width:"500px"
+    },
+    r1:{
+      width:"15rem",
+      margin :"20px",
+      marginTop:"75px"
+    },
+    r2:{
+      width:"15rem",
+      margin :"20px",
+      marginTop:"20px"
     }
     }
     render() { 
@@ -32,9 +56,9 @@ class Hobbies extends Component {
         <div className="row">
             
             <div className="col-4">
-            <div className="row">
+            <div className="row overflow-auto">
             <h5 style={{color:"white",fontFamily: "Papyrus",marginLeft:"400px",marginTop:"40px",fontSize:"30px"}}>Blogging</h5>
-            <div className="card" style={{"width":"15rem","margin" :"20px",marginTop:"75px"}}>
+            <div className="card" style={this.styles.r1}>
             <img className="card-img-top" src={red} alt="Poem"/>
             <div className="card-body">
                 <h5 className="card-title">I am the Red in your BLOOD</h5>
@@ -45,7 +69,7 @@ class Hobbies extends Component {
             </div>
             </div>
 
-            <div className="card" style={{"width":"15rem","margin" :"20px",marginTop:"75px"}}>
+            <div className="card" style={this.styles.r1}>
             <img className="card-img-top" src={mani} alt="Article"/>
             <div className="card-body">
                 <h5 className="card-title">Manifestation of our Minds</h5>
@@ -55,7 +79,7 @@ class Hobbies extends Component {
             </div>
             </div>
 
-            <div className="card" style={{"width":"15rem","margin" :"20px",marginTop:"20px"}}>
+            <div className="card" style={this.styles.r2}>
             <img className="card-img-top" src={tall_tales} alt="Article"/>
             <div className="card-body">
                 <h5 className="card-title">Manifestation of our Minds</h5>
@@ -67,7 +91,7 @@ class Hobbies extends Component {
             </div>
 
             
-            <div className="card" style={{"width":"15rem","margin" :"20px",marginTop:"20px"}}>
+            <div className="card" style={this.styles.r2}>
             <img className="card-img-top" src={ras} alt="Article"/>
             <div className="card-body">
                 <h5 className="card-title">The open Jar of Rasgullas</h5>
@@ -91,8 +115,8 @@ class Hobbies extends Component {
       style={this.styles.img}
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Midst</h3>
+      <p>In the Midst of a crowd,listen to your soul. </p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
@@ -104,8 +128,8 @@ class Hobbies extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Obstacles</h3>
+      <p>They make your life worth narrating.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
@@ -117,8 +141,8 @@ class Hobbies extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Light</h3>
+      <p>It's within you.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
@@ -129,8 +153,8 @@ class Hobbies extends Component {
       style={this.styles.img}
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Kaleidoscope </h3>
+      <p>Life in one word.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
@@ -141,8 +165,8 @@ class Hobbies extends Component {
       style={this.styles.img}
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Kairos</h3>
+      <p>Stuck in the moment.Captured by Time</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
@@ -153,8 +177,8 @@ class Hobbies extends Component {
       style={this.styles.img}
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Kairos</h3>
+      <p>Stuck in the moment.Captured by Time</p>
     </Carousel.Caption>
     <Carousel.Item >
     <img
